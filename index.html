@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- ============ Daisy UI ========= -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- ========== Tailwind CSS ====== -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- =========== Font awsome ========== -->
+    <script
+      src="https://kit.fontawesome.com/e658e3932e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="lg:px-16 mx-auto">
+      <div class="navbar bg-base-100">
+        <!-- Navbar Start (Logo) -->
+        <div class="navbar-start inset-1">
+          <a class="btn btn-ghost">
+            <img
+              class="w-20"
+              src="./B11-A3-Living-Lab/Assignment_03_Category_0002/c2-assets/logo-header.png"
+              alt="Logo"
+            />
+          </a>
+        </div>
+
+        <!-- Navbar Center (Desktop Menu) -->
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Item 1</a></li>
+            <li><a>Item 2</a></li>
+            <li><a>Item 3</a></li>
+          </ul>
+        </div>
+
+        <!-- Navbar End (Mobile Toggle + Buttons) -->
+        <div class="navbar-end gap-2">
+          <!-- Mobile Dropdown -->
+          <div class="dropdown lg:hidden">
+            <div tabindex="0" role="button" class="btn btn-ghost">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            </div>
+            <!-- Mobile Dropdown Menu -->
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-50"
+            >
+              <li><a>Item 1</a></li>
+              <li><a>Item 2</a></li>
+              <li><a>Item 3</a></li>
+            </ul>
+          </div>
+
+          <!-- Desktop Buttons -->
+          <div class="hidden lg:flex lg:gap-10 lg:mx-8">
+            <a href=""> <i class="fa-solid fa-cart-shopping"></i></a>
+            <a href=""><i class="fa-brands fa-searchengin"></i></a>
+          </div>
+          <div class="hidden lg:flex gap-2">
+            <a class="px-4 py-1 rounded-md border-2 border-[#179800]">Button</a>
+            <a class="btn rounded-md bg-[#179800] text-white">Register</a>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
